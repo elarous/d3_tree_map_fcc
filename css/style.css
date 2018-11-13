@@ -1,0 +1,71 @@
+body {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: 'Krub';
+}
+
+#title{
+    text-align: center;
+    color: #424242;
+}
+
+#description {
+    color: #616161;
+}
+
+
+#container {
+    position: relative;
+}
+
+svg {
+    display: block;
+    margin: auto;
+    background-color: #FFF;
+    border: 1px solid #E0E0E0;
+    box-shadow: 0px 4px 8px 0px #E0E0E0;
+    color: #616161;
+}
+
+text{
+    fill: #616161;
+    font-size: 14px;
+}
+
+#tooltip {
+    color:#424242;
+    background-color: #F5F5F5;
+    box-shadow: 0px 2px 4px #616161;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0;
+    z-index: 2;
+    pointer-events: none;
+    min-width: 100px;
+    text-align: center;
+}
+
+#tooltip h1 {
+    font-size: 16px;
+    margin: 5px;
+}
+
+#tooltip h2 {
+    font-size: 14px;
+    margin: 5px;
+}
+
+#tooltip h3 {
+    font-size: 12px;
+    margin: 5px;
+}
